@@ -1,0 +1,93 @@
+# Visual Studio-specific files
+.vs
+.vscode/
+*.code-workspace
+
+# User-specific files
+*.suo
+*.user
+*.userossc
+*.sln.docstates
+
+# Build output
+*.obj
+*.o
+*.exe
+*.dll
+*.pdb
+*.ilk
+*.idb
+*.lib
+*.exp
+*.ncb
+*.sdf
+*.aps
+*.pch
+*.ipch
+*.tlog
+*.log
+
+# Build directories
+Debug/
+Release/
+x64/
+x86/
+ARM/
+ARM64/
+
+# CMake build directories
+CMakeCache.txt
+CMakeFiles/
+CMakeUserPresets.json
+CMakeLists.txt.user
+
+# Windows-specific files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Crash reports
+*.dmp
+
+# Compiler-generated files
+*.i
+*.lst
+*.res
+*.bsc
+
+# Visual Studio Code settings
+.vscode/
+launch.json
+tasks.json
+c_cpp_properties.json
+
+# Backup and temporary files
+*.bak
+*.tmp
+*.~*
+*.swp
+
+# NuGet packages
+packages/
+*.nupkg
+project.lock.json
+
+# Ignore Python virtual environments (if used for scripting)
+venv/
+.env/
+
+# Ignore test and profiling outputs
+Testing/
+*.gcda
+*.gcno
+*.gcov
+*.coverage
+*.tlog
+*.lastbuildstate
+
+# Ignore Make and Ninja build files
+Makefile
+CMakeFiles/
+CMakeCache.txt
+compile_commands.json
+build/
