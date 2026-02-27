@@ -1,6 +1,6 @@
 #include <iostream>
-#include <glad/glad.h>
-#include <GLFW/glfw3.h>
+#include <glad/glad.hpp>
+#include <GLFW/glfw3.hpp>
 
 using namespace std;
 
